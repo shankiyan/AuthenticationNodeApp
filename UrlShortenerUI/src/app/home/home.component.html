@@ -1,0 +1,23 @@
+
+<div *ngIf="UserStatus"><h2> Welcome <span style="color:red;"> {{User}}</span> </h2> <img  height="30" width="30" (click)="LogOut()" src="assets/logout.png" /></div>
+
+<div *ngIf="UserStatus" class="container">
+
+  
+
+  <h1>Url Shortner</h1>
+  <input class="urltext" type="text" ng-pattern="/^(http[s]?:\/\/){0,1}(www\.){0,1}[a-zA-Z0-9\.\-]+\.[a-zA-Z]{2,5}[\.]{0,1}/" [(ngModel)]="ActualURL" placeholder="Paste Copied URL">
+  <button class="shortenbtn" (click)="ShortenURL()">Shorten URL</button>
+  <br />
+  <br />
+  <br />
+  <img class="spinner" src="../../assets/spinner.gif" *ngIf="spinner" style="margin-left:40%" height="55" alte="loading" />
+  <span *ngIf="ShortenedURL" class="box">
+    <label class="result">
+      {{ShortenedURL}}&nbsp;
+      <span class="copybtn" style="color:grey;" (click)="copytext()">copy</span>
+    </label>
+  </span>
+</div>
+
+<span>Designed By <a href="http://shankiyan.in" target="_new">Shankiyan S</a> </span>

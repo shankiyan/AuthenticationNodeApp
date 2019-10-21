@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #1fc8db;
+  font-family: sans-serif;
+  background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+.result {
+
+}
+.copybtn {
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 10px;
+}
+.box {
+  padding: 19px;
+  align-content: center;
+  border-radius: 5px;
+  border: none;
+  margin-left: 5px;
+  height: 52px;
+  background-color: orangered;
+  color: white;
+  margin-left:160px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 15%;
+  margin-bottom:10%;
+  height:250px;
+}
+.shortenbtn
+{
+  padding:10px;
+  align-content:center;
+  border-radius:5px;
+  border:none;
+  margin-left:5px;
+  text-transform:uppercase;
+  height:52px;
+}
+.urltext {
+  height: 45px;
+  width: 80%;
+  border: none;
+  border-radius: 28px;
+  padding: 13px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  /* border: green; */
+  
+  text-transform: uppercase;
+}
+img .class{
+  color: white;
+  font-size: 50px;
+  padding: 18%;
+  margin-left: 20%;
+}

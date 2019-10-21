@@ -1,0 +1,20 @@
+
+<img class="spinner" src="../../assets/spinner.gif" *ngIf="spinner" style="margin-left:28%" height="55" alte="loading" />
+
+
+<div class="panel">
+  <h2>
+    {{AlertMsg}}
+  </h2>
+</div>
+<div *ngIf="HideLoginDialog" class="login">
+
+  <input type="email" required placeholder="Username" [(ngModel)]="Email" id="username" autocomplete="off">
+  <input type="password" required placeholder="password" id="password" [(ngModel)]="Password">
+  <input type="submit" (click)="ValidateEmail()" value="Sign In">
+
+
+</div>
+<div  *ngIf="HideLoginDialog" class="shadow"></div>
+
+

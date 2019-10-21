@@ -1,0 +1,10 @@
+heroku create
+heroku git:remote -a immense-mountain-96755
+git init
+git add .
+git commit -am "Initial Release"
+git push heroku master
+
+
+API -- https://immense-mountain-96755.herokuapp.com/
+UI  -- 
